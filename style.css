@@ -1,0 +1,21 @@
+body, html {
+font-family: 'Courier New', Courier, monospace; 
+background-color: rgb(236, 241, 245);
+}
+body {
+.styled {
+    border: 0;
+    line-height: 2.5;
+    font-size: 1rem;
+    display: flex;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(58, 63, 58);
+} 
+   
+  .styled:hover {
+    background-color: blanchedalmond;
+  }
+  
+}
+  
