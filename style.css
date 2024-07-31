@@ -3,8 +3,17 @@ font-family: 'Courier New', Courier, monospace;
 background-color: rgb(236, 241, 245); 
 right: 50%; 
 } 
+h1 {
+  position: absolute; 
+  left: 25%; 
+  right: 75%; 
+  top: 10%;
+  width: 800px; 
+  height: 100px;
+  font-size: 45px; 
+}
 Body { 
-#potion { 
+#potionButton { 
   position: absolute; 
   left: 50%; 
   right: 50%; 
@@ -21,8 +30,8 @@ Body {
     transform: translate(-50%,-50%); 
 } 
    
-  #potion:hover {
-    background-color: blanchedalmond;
+  #potionButton:hover {
+    background-color: rgb(202, 183, 153);
   }
 
 } 
