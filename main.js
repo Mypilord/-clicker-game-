@@ -1,8 +1,9 @@
 let score = 0; 
 let autoclick = false; 
-let setInterval = 
+
+
 function scoreCount() {
-    score= score +1
+    score = score +1
     document.getElementById('score').textContent = score;
 }
 
@@ -14,6 +15,30 @@ function autoclicker() {
                 score = score + 1;
                 document.getElementById('score').textContent = score;
             }
-        }, 3000); 
+        }, 5000); 
+
       }
     } 
+
+
+        while (autoclick == true) {
+            function updateInterval() {
+                if (score >= 2000 ) {
+                    setInterval = 500;
+                } else if (score >= 1000) {
+                    setInterval = 1000; 
+                }  else if (score >= 800) {
+                    setInterval = 1500;
+                } else if (score >= 500) {
+                    setInterval = 2000;
+                } else if (score >= 200) {
+                    setInterval = 4500;
+                } else {
+                    setInterval = 5000;
+                }
+            }
+            }
+
+            
+    
+        

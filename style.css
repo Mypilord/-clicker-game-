@@ -35,4 +35,13 @@ Body {
   }
 
 } 
-
+Body {
+#autoclicker {
+  font-size: 20px; 
+    display: flex;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(198, 244, 252);
+    margin: 0; 
+}
+} 
