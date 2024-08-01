@@ -1,8 +1,21 @@
 body, html {
-font-family: 'azonix'; 
 background-color: rgb(204, 231, 253); 
+background-size: 100%; 
+font-family: 'azonix'; 
 right: 50%; 
+border-radius: 50px;
+border-color: #200094;
 } 
+
+h2 {
+ position: absolute; 
+ font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: medium;
+left: 45.5%; 
+  right: 54.5%; 
+  top: 93.5%;
+  width: 800px; 
+}
 h1 {
   position: absolute; 
   left: 25%; 
@@ -20,6 +33,7 @@ body {
     font-style: normal;
   }
 }
+
 
 Body { 
 #potionButton { 
@@ -46,13 +60,16 @@ Body {
   }
 } 
 
+body {
+  background-image: src ;
+}
+
 .dropdowncontent {
   display: none; 
   position: absolute;
   width: 100%;
   min-height: 300px;
   padding: 10px 8px;
-
 } 
 
 .dropdown { 
@@ -65,17 +82,24 @@ Body {
 
 }
 
+
 .dropbutton {
   font-family: "azonix";
   font-size: 20px; 
 }
 
+.dropdown:hover .dropdowncontent {
+  display: block;
+  position: center; 
+}
+
 Body {
 #autoclicker {
-  padding: 5px 8px;
-  text-align: center;
+  height: 50px; 
   font-size: 12px; 
+  width: 110px; 
   font-family: "azonix"; 
+  padding: 5px 8px; 
     color: #fff;
     border-radius: 10px;
     background-color: rgb(110, 170, 180);
@@ -87,8 +111,11 @@ Body {
 }
 } 
 
+
 #doubleclicker {
+  position: absolute; 
   width: 110px; 
+  height: 50px; 
   padding: 5px 8px;
   text-align: center;
   font-size: 12px; 
